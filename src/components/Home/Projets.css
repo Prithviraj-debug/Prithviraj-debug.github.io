@@ -1,0 +1,42 @@
+.shader2 {
+    position: absolute;
+    z-index: 0;
+    width: 60%;
+    height: 60%;
+    right: -30%;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+
+.projects {
+    overflow-x: hidden;
+    margin-top: 100vh;
+    padding-top: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.projects .head h1 {
+    font-size: 40px;
+    color: #001236;
+}
+
+.projects .headDark {
+    color: #ffffff;
+}
+
+.projects .headDark h1 {
+    color: #005AAD;
+}
+
+.projects .head p {
+    font-size: 20px;
+    padding-top: 10px;
+    margin-bottom: 70px;
+}
+
+.projects .card .thumb {
+    /* width: 420px; */
+}
+
